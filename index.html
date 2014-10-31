@@ -137,7 +137,16 @@
         <div class="clear"></div>
         </div>
         <div class="right-content">
-          <img src="img/right1.jpg">
+          <a href="#myToggle" class="hcaption">
+            <img src="img/right1.jpg">
+          </a>
+          <div id="myToggle" class="cap-overlay">
+            <h4>タイトル</h4>
+            <p>
+              コンテンツ
+            </p>
+          </div>
+          <div class="brake"></div>
           <img src="img/right2.jpg">
         </div>
       </div>
@@ -176,6 +185,7 @@
     <script src="./js/jquery.hcaptions.js"></script>
     <script>
       $(function(){
+        $('.hcaption').hcaptions();
         $("#title").arctext({radius: 1400, rotate: false, dir: -1});
         $("#title").on("click", function(){
           $(this).arctext('set', {
