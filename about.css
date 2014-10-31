@@ -37,6 +37,10 @@
   overflow: initial;
 }
 
+.box-large.ideal{
+  margin-bottom: 107px;
+}
+
 .ideal .box-content .motto{
   font-size: 25px;
   margin: 20px 0px;
@@ -65,4 +69,12 @@
 .aboutus .box-content td{
   padding: 15px 0px;
   border-bottom: 1px dashed #95c530;
+}
+
+.box.fade{
+  display: none;
+}
+
+.box.active{
+  display: block;
 }
