@@ -41,3 +41,9 @@
   width: 700px;
 }
 
+/*---------------------------------------------
+                dropdown-menu
+---------------------------------------------*/
+li.dropdown.open .dropdown-menu{
+  text-align: center;
+}
