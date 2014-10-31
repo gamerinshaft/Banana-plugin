@@ -82,7 +82,8 @@
             </div>
           </div>
           <!-- -------------------------- -->
-
+          <!-- tooltip -->
+          <a href="#" id="tooltip" data-toggle="tooltip" data-placement="top" title="tooltip on top">tooltip</a>
           <!-- Modal -->
           <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -130,5 +131,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      $('#tooltip').tooltip();
+    </script>
   </body>
 </html>
